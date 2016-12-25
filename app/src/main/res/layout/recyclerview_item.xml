@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="60dp">
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_marginLeft="5dp"
+        android:layout_alignParentLeft="true"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Muamer"/>
+    <TextView
+        android:id="@+id/txtLname"
+        android:layout_marginRight="5dp"
+        android:layout_alignParentRight="true"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Beginovic"/>
+    <TextView
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_below="@+id/txtLname"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#d2cdcd"/>
+</RelativeLayout>
